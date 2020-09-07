@@ -20,20 +20,23 @@ For Fibonacci recursive implementation or any recursive algorithm, the space req
 ![](recur.png)
 
 > import os,psutil
-pid=os.getpid() #process id
-ps=psutil.Process(pid)
 
-def Fibonacci(n): 
+>pid=os.getpid() #process id
+
+>ps=psutil.Process(pid)
+
+>def Fibonacci(n): 
     
     if n==0 or n==1:
       return n
     else:
       return Fibonacci(n-1)+Fibonacci(n-2) 
   
-print("5th term of fibonacci series is : " ,Fibonacci(5)) 
+>print("5th term of fibonacci series is : " ,Fibonacci(5)) 
 
-memoryUse =ps.memory_info()
-print(memoryUse)
+>memoryUse =ps.memory_info()
+
+>print(memoryUse)
 
 Memory used :
 
@@ -107,7 +110,8 @@ pmem(rss=111575040, vms=524972032, shared=32018432, text=3883008, lib=0, data=18
 
 ![](mem.png)
 
-#Observations:
+
+# Observations
 
 --------------------------------
 

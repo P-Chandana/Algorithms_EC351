@@ -13,7 +13,9 @@
 ### Time Complexity : 
 
 **sum=a+b takes one constant time for arthmetic operation and one constant time for storing**
-T(n)=2 implies *O(1)*
+
+
+>T(n)=2 implies **O(1)**
 
 **Method-2** :
 
@@ -25,7 +27,9 @@ T(n)=2 implies *O(1)*
 
 ### Time Complexity : 
 **sum+=i takes two constant times and for loop runs 2 times ( Here n is fixed i.e, 2 )**
-T(n)= 2x2=4  implies *O(1)*
+
+
+>T(n)= 2x2=4  implies **O(1)**
 
 ![](1.png)
 
@@ -54,7 +58,9 @@ Time complexity is constant in all methods
 ### Time Complexity:
 
 **F=(9*C/5)+32 takes one constant time for addition,multiplication,division each and one constant time for storing**
-T(n)=4 implies **O(1)**
+
+>T(n)=4 implies **O(1)**
+
 Time complexity will reamin same when Fahrenheit(F) is converted to Fahrenheit(F).
 
 # 3. Area(A) and Perimeter(P) of square 
@@ -72,7 +78,8 @@ Time complexity will reamin same when Fahrenheit(F) is converted to Fahrenheit(F
 ### Time Complexity:
 
 **A=lxl takes one constant time for arthematic operation , storing data each and P=4xl takes one constant time for arthematic operation , storing data each**
-T(n)=4 implies **O(1)**
+
+>T(n)=4 implies **O(1)**
 
 # 4. Finding Compound Interest
 
@@ -88,7 +95,8 @@ T(n)=4 implies **O(1)**
 ### Time Complexity:
 
 **A=P*(1+T/n)^nt takes one constant time for addition , division, multiplication twice ,storing data each and logn time for pow inbuilt function ,if we use for loop instead of pow() inbuilt function then the time complexity will be O(1) because n*t value is fixed here implies for loop runs for n*t constant times**
-T(n)=5+logn implies **O(logn)**
+
+>T(n)=5+logn implies **O(logn)**
 
 ![](4.png)
 
@@ -111,7 +119,8 @@ We can observe the time taken is same in both the cases.
 ### Time Complexity:
 
 **For Storing data in temporary variable it takes one constant time**
-T(n)=1 implies **O(1)**
+
+>T(n)=1 implies **O(1)**
 
 # 6. Smallest of two numbers A and B 
 
@@ -127,7 +136,8 @@ T(n)=1 implies **O(1)**
 
 ### Time Complexity:
 **"a<b" takes one constant time**
-T(n)=1 implies **O(1)**
+
+>T(n)=1 implies **O(1)**
 
 
 **Method-2:**
@@ -172,7 +182,9 @@ But the time taken is almost same.
 ### Time Complexity:
 
 **3 comparisions requires 3 constant times**
-T(n)=3 implies **O(1)**
+
+>T(n)=3 implies **O(1)**
+
 But for second method time complexity is not constant because of the sorted inbuilt function.
 
 
@@ -189,7 +201,8 @@ But for second method time complexity is not constant because of the sorted inbu
  
 ### Time Complexity:
 **i%2==0 takes 2 constant time and for loop runs 50 times**
-T(n)=2*50 implies **O(1)** but if loop runs n times then time complexity will be O(n)
+
+>T(n)=2*50 implies **O(1)** but if loop runs n times then time complexity will be O(n)
 
 # 9. Sum of series 1+2+3+4+....N 
 
@@ -205,7 +218,8 @@ T(n)=2*50 implies **O(1)** but if loop runs n times then time complexity will be
 * End 
 
 **sum+=i takes one constant time for arthematic operation,storing data each and for loop runs n times**
-T(n)=2n implies **O(n)**
+
+>T(n)=2n implies **O(n)**
 
 
 

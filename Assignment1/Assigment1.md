@@ -18,31 +18,32 @@ For Fibonacci recursive implementation or any recursive algorithm, the space req
 ***Space Complexity : O(n)***
 
 ![](recur.png)
+~~~
+import os,psutil
 
-> import os,psutil
+pid=os.getpid() #process id
 
->pid=os.getpid() #process id
+ps=psutil.Process(pid)
 
->ps=psutil.Process(pid)
-
->def Fibonacci(n): 
+def Fibonacci(n): 
     
     if n==0 or n==1:
       return n
     else:
       return Fibonacci(n-1)+Fibonacci(n-2) 
   
->print("5th term of fibonacci series is : " ,Fibonacci(5)) 
+print("5th term of fibonacci series is : " ,Fibonacci(5)) 
 
->memoryUse =ps.memory_info()
+memoryUse =ps.memory_info()
 
->print(memoryUse)
+print(memoryUse)
+~~~
+#### Memory used :
 
-Memory used :
-
-> 5th term of fibonacci series is :  5
+~~~
+5th term of fibonacci series is :  5
 pmem(rss=111370240, vms=524972032, shared=32018432, text=3883008, lib=0, data=182702080, dirty=0)
-
+~~~
 
 -----------------------------
 
@@ -72,12 +73,12 @@ For the iterative approach, the amount of space required is the same for fib(6) 
 ***Space Complexity:O(1)***
 ![](iter.png) 
 
+~~~
+import os,psutil
 
-> import os,psutil
+pid=os.getpid() 
 
->pid=os.getpid() 
-
->ps=psutil.Process(pid)
+ps=psutil.Process(pid)
 
 def fib(n): 
     a = 0
@@ -98,11 +99,12 @@ print("5th term of fibonacci series is : " ,fib(5))
 
 memoryUse =ps.memory_info()
 print(memoryUse)
-
-Memory used:
-> 5th term of fibonacci series is :  5
+~~~
+#### Memory used:
+~~~
+5th term of fibonacci series is :  5
 pmem(rss=111575040, vms=524972032, shared=32018432, text=3883008, lib=0, data=182702080, dirty=0)
-
+~~~
 
 # Memory Analysis 
 

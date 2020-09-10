@@ -15,7 +15,7 @@
 **sum=a+b takes one constant time for arthmetic operation and one constant time for storing**
 
 
->T(n)=2 implies **O(1)**
+>**T(n)=2 implies O(1)**
 
 **Method-2** :
 

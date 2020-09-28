@@ -105,9 +105,9 @@ Merge sort first divides the array into equal halves and then combines them in a
 
 ### Algorithm
 
-Step 1 − if it is only one element in the list it is already sorted, return.
-Step 2 − divide the list recursively into two halves until it can no more be divided.
-Step 3 − merge the smaller lists into new list in sorted order.
+- Step 1 − if it is only one element in the list it is already sorted, return.
+- Step 2 − divide the list recursively into two halves until it can no more be divided.
+- Step 3 − merge the smaller lists into new list in sorted order.
 
 ![](merge.jpeg)
 ~~~
